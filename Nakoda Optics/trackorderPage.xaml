@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nakoda_Optics.trackorderPage" NavigationPage.HasNavigationBar="False" >
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="WhiteSmoke" >
+
+            <StackLayout Orientation="Horizontal" >
+
+                <ImageButton x:Name="neworder" Clicked="neworder_Clicked" Source="add1.png" HeightRequest="65" BackgroundColor="Transparent" 
+                             Margin="10,-15,5,0" CornerRadius="100" />
+
+               
+
+                <SearchBar x:Name="ordersearch" BackgroundColor="GRAY" PlaceholderColor="White" TextChanged="ordersearch_TextChanged" 
+                           Placeholder="Search Order" Margin="5,15,0,30" WidthRequest="280" />
+
+            </StackLayout>
+           
+            
+            <Label Text="RECENT ORDERS" HorizontalTextAlignment="Center" FontSize="25" FontAttributes="Bold" Margin="0,-20,0,0" />
+
+            <ListView x:Name="orderlist" IsPullToRefreshEnabled="True" RowHeight="150"  ItemSelected="orderlist_ItemSelected" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell  >
+                            <StackLayout BackgroundColor="pink" Margin="0,3,0,0" x:Name="mystack" >
+
+
+                                <StackLayout Orientation="Horizontal" Margin="10,10,10,0"  >
+                                    
+                                    <Label Text="{Binding custname}" FontAttributes="Bold" FontSize="20" TextColor="Black" TextTransform="Uppercase" />
+                                    <Label Text="{Binding city }" FontSize="20" TextColor="gray" HorizontalOptions="EndAndExpand"  />
+
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal" Margin="10,10,10,0">
+
+                                    
+                                    <Label Text="{Binding compony}" FontSize="20" TextColor="Brown" FontAttributes="Bold" />
+                                    <Label Text="{Binding model}" FontSize="20" TextColor="Brown" FontAttributes="Bold" />
+                                    <Label Text="{Binding thequantity}" TextColor="Brown"  Opacity="0.75"  FontSize="22"/>
+
+
+
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal" Margin="10,10,10,0" >
+                                    <Label Text= "{Binding Date}" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"  FontAttributes="Italic" TextColor="Black" />
+
+                                   
+
+                                </StackLayout>
+                                
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

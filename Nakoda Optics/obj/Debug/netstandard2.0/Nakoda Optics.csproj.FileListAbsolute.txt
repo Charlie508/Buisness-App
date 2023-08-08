@@ -1,0 +1,20 @@
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\bin\Debug\netstandard2.0\Nakoda Optics.deps.json
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\bin\Debug\netstandard2.0\Nakoda Optics.dll
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\bin\Debug\netstandard2.0\Nakoda Optics.pdb
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\Nakoda Optics.csproj.AssemblyReference.cache
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\Nakoda Optics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\Nakoda Optics.AssemblyInfoInputs.cache
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\Nakoda Optics.AssemblyInfo.cs
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\Nakoda Optics.csproj.CoreCompileInputs.cache
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\Nakoda Optics.dll
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\refint\Nakoda Optics.dll
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\Nakoda Optics.pdb
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\ref\Nakoda Optics.dll
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\orderPage.xaml.g.cs
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\stockPage.xaml.g.cs
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\addPage.xaml.g.cs
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\trackorderPage.xaml.g.cs
+C:\Users\chait\source\repos\Nakoda Optics\Nakoda Optics\Nakoda Optics\obj\Debug\netstandard2.0\detailPage.xaml.g.cs

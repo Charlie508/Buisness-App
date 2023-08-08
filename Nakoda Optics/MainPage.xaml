@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="specs.jpg" 
+             x:Class="Nakoda_Optics.MainPage" Visual="Material" >
+
+
+    <StackLayout >
+        <!--<Label Text="NAKODA" FontSize="70" FontAttributes="Bold" Margin="20,75,0,0" TextColor="Black" />
+        <Label Text="Optical Industries" FontSize="30" FontAttributes="Italic" Margin="75,-15,0,0" TextColor="Black" Opacity="0.7" />-->
+
+
+
+
+        <Image Source="logo1.png" Margin="10,50,-10,40" />
+
+
+
+
+
+        <Button x:Name="Stock" Text="Stock" BackgroundColor="pink" TextColor="Black"  Clicked="Stock_Clicked"
+                Margin="35,10,35,30" CornerRadius="10" BorderColor="Black" BorderWidth="1" HeightRequest="50"
+                FontSize="18" FontAttributes="Bold" />
+
+        <Button x:Name="Order" Text="Order" BackgroundColor="Pink" TextColor="Black" Margin="35,15,35,10" CornerRadius="10"
+                Clicked="Order_Clicked" BorderColor="Black" BorderWidth="1" FontAttributes="Bold" HeightRequest="50" FontSize="18" />
+
+
+   
+
+    </StackLayout>
+
+
+
+
+
+</ContentPage>

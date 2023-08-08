@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Order Summery"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="Nakoda_Optics.detailPage">
+    <ContentPage.Content>
+
+        <StackLayout >
+
+
+            <Image Source="backlogo.png" BackgroundColor="DeepSkyBlue" Margin="-10,0,-10,0" />
+
+
+
+
+            <StackLayout Orientation="Horizontal" Margin="5,0,5,0" >
+
+                <Label x:Name="customername"  FontAttributes="Bold" FontSize="18" TextColor="Black" TextTransform="Uppercase" />
+
+                <Label x:Name="customercon" Text="2356232323 " FontAttributes="Bold" FontSize="18" TextColor="Black"  HorizontalOptions="EndAndExpand" />
+
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="5,0,5,0">
+
+                <Label x:Name="custcity" FontSize="16" TextTransform="Uppercase" FontAttributes="Bold" />
+
+                <Label x:Name="thedate" HorizontalOptions="EndAndExpand"  FontSize="16" FontAttributes="Bold"/>
+
+
+            </StackLayout>
+
+
+
+            <ListView x:Name="tracklist" BackgroundColor="LightSkyBlue" IsPullToRefreshEnabled="True" Margin="0,5,0,0" RowHeight="50">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Margin="5,0,5,0">
+
+
+                                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" >
+
+
+                                    <Label Text="{Binding compony}" FontAttributes="Bold" FontSize="17" TextColor="Black" TextTransform="Uppercase"  />
+                                    <Label Text="{Binding model}" FontAttributes="Italic" FontSize="16" />
+
+
+                                </StackLayout>
+
+                                <StackLayout  VerticalOptions="CenterAndExpand" >
+
+                                    <Label Text="{Binding color}" FontAttributes="Bold" FontSize="15" TextTransform="Uppercase" />
+
+
+
+
+
+
+                                    <StackLayout VerticalOptions="CenterAndExpand"  Orientation="Horizontal" >
+
+
+                                        <Label Text="{Binding thequantity}" FontAttributes="Bold" FontSize="15"  HorizontalOptions="Center"  />
+                                        <Label Text="Quntity" Margin="-2,2,0,0" />
+
+
+                                    </StackLayout>
+
+                                </StackLayout>
+
+                                <Label Text="{Binding price}" FontAttributes="Bold" FontSize="17" TextColor="Black" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" />
+                                <Label Text="/-"  FontAttributes="Bold" FontSize="18" TextColor="Black" VerticalOptions="CenterAndExpand" Margin="-4,0,0,0"/>
+
+
+
+
+
+                            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        
+
+           
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

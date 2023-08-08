@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z1pR/sUPPaP71LueSfgVTxuv+ZYbvzJrmJb37juxcV6OADRxhS83y1q9IFGyrgx/fyQkpvTXv/CiVY041m1QQA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chait\\source\\repos\\Nakoda Optics\\Nakoda Optics\\Nakoda Optics\\Nakoda Optics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chait\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\pdfsharpnetstandard2\\1.51.4845\\pdfsharpnetstandard2.1.51.4845.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\xamarin.communitytoolkit\\1.0.0\\xamarin.communitytoolkit.1.0.0.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\xamarin.communitytoolkit.markup\\1.0.0\\xamarin.communitytoolkit.markup.1.0.0.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\chait\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2196\\xamarin.forms.visual.material.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
